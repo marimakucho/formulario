@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+   <a class="link" href="formulario.html"><h1 class="inscrição">Inscrição!</h1></a>
+    <h2>できるうちにサインアップしてください</h2>
+    <br>
+    <main class="formula">
+      <form class="seila" action="agradecimento.html">
+        <div class="pão">
+        <label for="fname" class="legal">Nome</label>
+        <input type="text" id="fname" name="firstname" placeholder="Seu nome..." class="input-padrao" required>
+    
+        <label for="lname" class="legal">Sobrenome</label>
+        <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome..." class="input-padrao" required>
+        <label for="email" class="legal">Email</label>
+        <input type="email" id="email" name="email" placeholder="Seuemail@dominio..." class="input-padrao" required>
+    
+        <label for="password" class="legal">Senha</label>
+        <input type="password" id="password" name="password" placeholder="*****" class="input-padrao" required>
+
+        <label for="telefone" class="legal">Telefone</label>
+        <input type="text" id="Telefone" name="telefone" placeholder="(XX) XXXXXXX" class="input-padrao" required>
+    
+        <label for="Gender" class="legal">Gênero</label>
+        <select id="Gender" name="Gender" required>
+          <option value="Feminino" class="legal">Fem</option>
+          <option value="masculino" class="legal">Masc</option>
+          <option value="nenhum" class="legal">Nenhum</option>
+        </select>
+        <div>
+            <br>
+            <img class="imagem" src="sem fundo.png">
+            <br>
+            <legend class="legal">Como prefere entrar em nosso contato?</legend>
+        <label for="radio-email" class="legal"><input type="radio" name="contato" value="Email" id="radio-email" required>Email</label>
+
+        <label for="radio-telefone" class="legal"><input type="radio" name="contato" value="Telefone" id="radio-telefone" required>Telefone</label>
+
+        <label for="radio-whatsapp" class="legal"><input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp" checked required>WhatsApp</label>
+        
+        </div>
+
+        <label class="checkbox, legal"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+        <label for="subject" class="legal">Comentário</label>
+        <textarea id="subject" name="subject" placeholder="Faça um comentário!" style="height:200px" class="input-padrao"></textarea>
+    
+        <input type="submit" value="Enviar" class="enviar">
+    </div>
+      </form>
+    </main>
+    
+</body>
+</html>

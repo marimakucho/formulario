@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient( white,#99d9ea 30%);
+}
+
+.inscrição{
+    font-size: 400%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    color: #347db5;
+    padding-left: 10%;
+}
+
+h2{
+    font-size: 100%;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(48, 81, 106);
+padding-left: 10%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=email], input[type=password], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #0f1b27;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.formula {
+  width: 800px;
+  padding: 80px;
+  padding-left: 20%;
+  border-radius: 10%;
+  background-color:  #99d9ea;
+}
+
+ 
+.seila{
+    margin: -20px 10px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+}
+
+
+legend{
+    padding: 20px;
+font-size: 20px;
+display: block;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    background-color: #56aade;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 20px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #4293d6;
+    transform: scale(1.1);
+    
+    
+}
+
+.imagem{
+    width: 400px;
+   margin-left: 130%;
+   margin-top: -600%;
+}
+
+.legal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
